@@ -7,7 +7,6 @@ export default function ThemeToggle() {
   const [theme, setTheme] = useState("light");
   const [mounted, setMounted] = useState(false);
 
-  // Fix hydration mismatch
   useEffect(() => {
     setMounted(true);
     const saved = localStorage.getItem("theme");
@@ -23,22 +22,22 @@ export default function ThemeToggle() {
     const newTheme = theme === "light" ? "dark" : "light";
     setTheme(newTheme);
 
-    // This triggers the full-page smooth transition
     document.documentElement.classList.add("theme-transition");
     document.documentElement.classList.toggle("dark", newTheme === "dark");
     localStorage.setItem("theme", newTheme);
 
-    // Remove transition class after animation ends
     setTimeout(() => {
       document.documentElement.classList.remove("theme-transition");
     }, 600);
   };
 
-  // Prevent rendering until mounted (fixes hydration)
   if (!mounted) return <div className="w-12 h-12" />;
 
   return (
     <button
+      data-aos="fade-left"
+      data-aos-duration="800"
+      data-aos-delay="100"
       onClick={toggleTheme}
       className="relative p-3 rounded-full bg-gray-100 dark:bg-gray-800 border border-gray-300 dark:border-gray-700 transition-all hover:scale-110 active:scale-95 z-50"
       aria-label="Toggle theme"
@@ -53,7 +52,6 @@ export default function ThemeToggle() {
         style={{ top: "50%", left: "50%", transform: "translate(-50%, -50%)" }}
       />
 
-      {/* Icons */}
       <div className="relative z-10">
         <Sun
           className={`w-5 h-5 transition-all duration-500 ${
