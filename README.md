@@ -3,7 +3,7 @@ AutoBot WA – WhatsApp Automation Landing Page
 A modern, responsive landing page built for the AutobotWA Frontend Internship assignment.
 
 🚀 Tech Stack
-Next.js 15 (App Router)
+Next.js 16 (App Router)
 React
 Tailwind CSS v4
 Vercel v0 (AI UI generation for selected sections)
