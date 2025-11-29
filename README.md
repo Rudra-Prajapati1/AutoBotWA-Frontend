@@ -1,36 +1,62 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+AutoBot WA – WhatsApp Automation Landing Page
 
-## Getting Started
+A modern, responsive landing page built for the AutobotWA Frontend Internship assignment.
 
-First, run the development server:
+🚀 Tech Stack
+Next.js 15 (App Router)
+React
+Tailwind CSS v4
+Vercel v0 (AI UI generation for selected sections)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Lucide React Icons
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🧭 Project Overview
+This landing page showcases a clean, modern SaaS design for a WhatsApp automation tool.
+It includes multiple sections demonstrating frontend skills, UI consistency, responsiveness, and design quality.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Implemented Sections:
+Header with animated theme toggle
+Hero section with WhatsApp-style chat mockup
+Features section (custom-built premium cards)
+Testimonials section (v0 generated & improved manually)
+Pricing section (v0 generated & redesigned for consistency)
+Footer section (clean SaaS layout)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+🤖 Vercel v0 Usage
+The following sections were generated using Vercel v0 and refined manually:
 
-## Learn More
+1. Hero Section
+   Two-column layout
+   Heading, subtext, CTA buttons
+   Phone mockup showing automated WhatsApp chat
+   Updated to Tailwind v4 syntax and polished for responsiveness
 
-To learn more about Next.js, take a look at the following resources:
+2. Testimonials Section
+   Customer testimonial cards with avatars & ratings
+   Hover effects, shadows, and gradient accents
+   Improved dark-mode behavior and layout spacing
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. Pricing Section
+   Three-tier pricing layout (Starter, Pro, Enterprise)
+   Highlighted "Pro" plan with gradient border
+   Clean feature list and CTA buttons
+   Rebuilt for premium SaaS UI using Tailwind v4
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+All other sections (Header, Theme Toggle, Features, Footer) were built manually.
 
-## Deploy on Vercel
+🌐 Live Demo
+Vercel Link:
+https://whatsapp-automation-landing.vercel.app/
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+📦 Repository
+GitHub Link:
+https://github.com/Rudra-Prajapati1/AutoBotWA-Frontend
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+📱 Responsiveness
+Fully responsive across mobile, tablet, and desktop
+Consistent spacing and layout hierarchy
+Smooth UI transitions in both light and dark themes
+
+🧑‍💻 Developer
+Rudra Prajapati
+Assignment Submission for AutobotWA – Frontend Development Internship
